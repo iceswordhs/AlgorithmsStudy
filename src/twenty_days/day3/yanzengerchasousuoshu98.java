@@ -14,20 +14,26 @@ package twenty_days.day3;
  * 节点的右子树只包含 大于 当前节点的数。
  * 所有左子树和右子树自身必须也是二叉搜索树。
  *
- * 思路：递归，遍历判断子节点是否小于根节点，越往下值越小。
+ * 思路：递归，设定节点的上下值
+ * 1.左子树的下限为本节点的下限，左子树的上限为本节点的值；
+ * 2.右子树的上限为本节点的上限，右子树的下限为本节点的值；
+ * 3.这样就保证了子树的所有节点都满足条件
  */
 public class yanzengerchasousuoshu98 {
     //public boolean isValidBST(TreeNode root) {
     //    return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
     //}
     //
-    //public boolean isValidBST(TreeNode node, long lower, long upper) {
-    //    if (node == null) {
+    //public boolean isValidBST(TreeNode root,double lower,double upper){
+    //    if(root==null){
     //        return true;
     //    }
-    //    if (node.val <= lower || node.val >= upper) {
+    //    if(root.val<=lower||root.val>=upper){
     //        return false;
     //    }
-    //    return isValidBST(node.left, lower, node.val) && isValidBST(node.right, node.val, upper);
+    //    return isValidBST(root.left,lower,root.val)&&isValidBST(root.right,root.val,upper);
+    // 左子树的下限为本节点的下限，左子树的上限为本节点的值；
+    // 右子树的上限为本节点的上限，右子树的下限为本节点的值；
+    // 这样就保证了子树的所有节点都满足条件
     //}
 }
