@@ -11,8 +11,14 @@ import java.util.List;
  */
 public class TestSolution {
     public static void main(String[] args) {
-        feibonaqishulie_jianzhioffer10_I feibonaqishulie_jianzhioffer10_i = new feibonaqishulie_jianzhioffer10_I();
-        System.out.println(feibonaqishulie_jianzhioffer10_i.fib(2));
 
+    }
+    public int get(int n){
+        int ans=0;
+        while(n!=0){
+            ans+=n%10;
+            ans=ans/10;
+        }
+        return ans;
     }
 }
