@@ -1,9 +1,8 @@
 package twenty_days;
 
-import twenty_days.day16.diandaoerjinziwei190;
+import swordoffer2.utils.TreeNode;
+import twenty_days.day17.shudezijiegou_offer_26;
 
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * @author Hs
@@ -11,11 +10,6 @@ import java.util.List;
  */
 public class TestSolution {
     public static void main(String[] args) {
-        diandaoerjinziwei190 solution = new diandaoerjinziwei190();
-        System.out.println(solution.reverseBits(-3));
-        //System.out.println(Integer.toBinaryString(5));
-        //System.out.println(Integer.toBinaryString(-6));
-
 
     }
 }

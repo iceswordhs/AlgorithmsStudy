@@ -31,13 +31,8 @@ public class hebinglianggeyouxulainbiao21 {
     //    }
     //    if(l1!=null){
     //        node.next=l1;
-    //        node=node.next;
-    //        l1=l1.next;
-    //    }
-    //    if(l2!=null){
+    //    }else {
     //        node.next=l2;
-    //        node=node.next;
-    //        l2=l2.next;
     //    }
     //    return root.next;
     //}
