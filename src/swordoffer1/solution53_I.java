@@ -1,4 +1,4 @@
-package swordoffer2;
+package swordoffer1;
 
 public class solution53_I {
     public int search(int[] nums, int target) {//二分的边界是 left<=right mid=left+(right-left)/2

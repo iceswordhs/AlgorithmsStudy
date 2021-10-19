@@ -1,4 +1,4 @@
-package swordoffer2;
+package swordoffer1;
 
 /*
     a，b两数相加可转化为a^b+(a&b)<<1

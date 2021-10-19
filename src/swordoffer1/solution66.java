@@ -1,4 +1,4 @@
-package swordoffer2;
+package swordoffer1;
 
 public class solution66 {
     public int[] constructArr(int[] a) {

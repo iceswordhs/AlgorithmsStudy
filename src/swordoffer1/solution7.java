@@ -2,12 +2,6 @@ package swordoffer1;
 
 import java.util.HashMap;
 
-class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-}
 public class solution7 {
     HashMap<Integer,Integer> map=new HashMap<>();
     int[] pre;

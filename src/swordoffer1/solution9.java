@@ -1,8 +1,5 @@
 package swordoffer1;
 
-import java.util.Deque;
-import java.util.LinkedList;
-
 public class solution9 {
 //    private Deque<Integer> stack1;
 //    private Deque<Integer> stack2;

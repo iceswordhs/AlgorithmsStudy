@@ -1,4 +1,4 @@
-package swordoffer2;
+package swordoffer1;
 
 public class solution51 {
     //private static int[] nums={11,54,56,88,38,894,51};

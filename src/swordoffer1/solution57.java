@@ -1,4 +1,4 @@
-package swordoffer2;
+package swordoffer1;
 
 public class solution57 {
     public int[] twoSum(int[] nums, int target) {

@@ -1,4 +1,4 @@
-package swordoffer2;
+package swordoffer1;
 
 public class solution58_II {
     public String reverseLeftWords(String s, int n) {

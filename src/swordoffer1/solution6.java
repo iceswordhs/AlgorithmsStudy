@@ -1,14 +1,11 @@
 package swordoffer1;
 
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.Stack;
-
 class ListNode {
       int val;
       ListNode next;
       ListNode(int x) { val = x; }
 }
+
 public class solution6 {
 //    public int[] reversePrint(ListNode head) {//用队列存储然后输出
 //        Deque<Integer> stack=new LinkedList<>();

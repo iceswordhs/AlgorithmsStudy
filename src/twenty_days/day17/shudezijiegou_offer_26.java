@@ -1,6 +1,6 @@
 package twenty_days.day17;
 
-import swordoffer2.utils.TreeNode;
+import swordoffer1.utils.TreeNode;
 
 /**
  * @author Hs

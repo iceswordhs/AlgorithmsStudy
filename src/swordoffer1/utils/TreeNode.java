@@ -1,4 +1,4 @@
-package swordoffer2.utils;
+package swordoffer1.utils;
 
 public class TreeNode {
       public int val;

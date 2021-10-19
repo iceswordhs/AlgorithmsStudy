@@ -1,4 +1,4 @@
-package swordoffer2;
+package swordoffer1;
 
 class ListNode {
     int val;

@@ -1,4 +1,4 @@
-package swordoffer2;
+package swordoffer1;
 
 public class solution63 {
     public int maxProfit(int[] prices) {

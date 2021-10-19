@@ -1,9 +1,5 @@
 package swordoffer1;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
-
 public class solution3 {
 //    public int findRepeatNumber(int[] nums) {
 //        Set<Integer> set=new HashSet<>();
