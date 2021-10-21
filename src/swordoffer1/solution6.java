@@ -1,10 +1,6 @@
 package swordoffer1;
 
-class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
-}
+
 
 public class solution6 {
 //    public int[] reversePrint(ListNode head) {//用队列存储然后输出
