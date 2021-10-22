@@ -9,8 +9,8 @@ import java.util.Arrays;
  */
 public class TestSolution {
     public static void main(String[] args) {
-        solution29 solution=new solution29();
-        int[] ints = solution.spiralOrder(new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}});
-        System.out.println(Arrays.toString(ints));
+        solution31 solution = new solution31();
+        solution.validateStackSequences(new int[]{1,2,3,4,5},new int[]{4,5,3,2,1});
+
     }
 }
