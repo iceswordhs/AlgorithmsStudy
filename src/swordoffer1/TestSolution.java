@@ -9,8 +9,8 @@ import java.util.Arrays;
  */
 public class TestSolution {
     public static void main(String[] args) {
-        solution31 solution = new solution31();
-        solution.validateStackSequences(new int[]{1,2,3,4,5},new int[]{4,5,3,2,1});
+        solution39 solution = new solution39();
+        solution.majorityElement(new int[]{1, 2, 3, 2, 2, 2, 5, 4, 2});
 
     }
 }
