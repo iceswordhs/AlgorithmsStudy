@@ -25,7 +25,7 @@ package swordoffer1;
  *
  */
 public class solution36 {
-    //Node pre, head;
+    //Node pre, head;// pre表示前一个节点 head表示头结点，当pre为null时(也就是遇到的第一个不为null的节点时),head等于该节点
     //public Node treeToDoublyList(Node root) {
     //    if(root == null) return null;
     //    dfs(root);
@@ -36,6 +36,7 @@ public class solution36 {
     //void dfs(Node cur) {
     //    if(cur == null) return;
     //    dfs(cur.left);
+        //中序遍历时，前一个节点的右指针指向当前节点，此节点的左指针指向前一个节点，然后pre指向此节点
     //    if(pre != null) pre.right = cur;
     //    else head = cur;
     //    cur.left = pre;
