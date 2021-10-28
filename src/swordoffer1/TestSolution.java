@@ -9,8 +9,12 @@ import java.util.Arrays;
  */
 public class TestSolution {
     public static void main(String[] args) {
-        solution39 solution = new solution39();
-        solution.majorityElement(new int[]{1, 2, 3, 2, 2, 2, 5, 4, 2});
-
+        SortedQueue queue = new SortedQueue();
+        queue.addInt(1);
+        queue.addInt(9);
+        queue.addInt(4);
+        System.out.println(Arrays.toString(queue.arrayList.toArray()));
+        System.out.println(queue.select(4));
+        System.out.println(queue.arrayList.size());
     }
 }
