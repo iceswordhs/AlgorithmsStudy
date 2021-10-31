@@ -9,12 +9,7 @@ import java.util.Arrays;
  */
 public class TestSolution {
     public static void main(String[] args) {
-        SortedQueue queue = new SortedQueue();
-        queue.addInt(1);
-        queue.addInt(9);
-        queue.addInt(4);
-        System.out.println(Arrays.toString(queue.arrayList.toArray()));
-        System.out.println(queue.select(4));
-        System.out.println(queue.arrayList.size());
+        int t=1534236469;
+        System.out.println(-t);
     }
 }
