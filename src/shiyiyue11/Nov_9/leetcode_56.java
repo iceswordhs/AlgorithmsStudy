@@ -18,20 +18,18 @@ import java.util.List;
  */
 public class leetcode_56 {
     public int[][] merge(int[][] intervals) {
-        if (intervals.length == 0) {
-            return new int[0][2];
-        }
-        // 排序
-        Arrays.sort(intervals, (interval1, interval2) -> interval1[0] - interval2[0]);
-        List<int[]> merged = new ArrayList<int[]>();
-        for (int i = 0; i < intervals.length; ++i) {
-            int L = intervals[i][0], R = intervals[i][1];
-            if (merged.size() == 0 || merged.get(merged.size() - 1)[1] < L) {
-                merged.add(new int[]{L, R});
-            } else {
-                merged.get(merged.size() - 1)[1] = Math.max(merged.get(merged.size() - 1)[1], R);
+        if(intervals.length==0) return new int[0][2];
+        Arrays.sort(intervals,(intervals1,intervals2)->intervals1[0]-intervals2[0]);
+        List<int[]> list=new ArrayList<>();
+        for(int i=0;i<intervals.length;i++){
+            int l=intervals[i][0],r=intervals[i][1];
+            if(list.size()==0||list.get(list.size()-1)[1]<l){//如果list为空或者最后一个区间的左边界小于当前右边界
+                list.add(new int[]{l,r});
+            }else{
+                int t=list.get(list.size()-1)[1];
+                list.get(list.size()-1)[1]=t>r?t:r;
             }
         }
-        return merged.toArray(new int[merged.size()][]);
+        return list.toArray(new int[list.size()][]);
     }
 }

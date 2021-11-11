@@ -13,7 +13,10 @@ package shiyiyue11.Nov_10;
  * 注意:
  * 假设字符串的长度不会超过 1010。
  *
- * 思路：
+ * 思路：计算出每个字符出现的个数，用ans表示结果
+ *      然后如果一个字符出现了偶数次n，可以加上n
+ *      如果一个字符出现了奇数次，就加上n/2*2
+ *      如果一个字符出现了奇数次并且ans为偶数(即还没有遇见过出现奇数次的字符)，那么ans++
  */
 public class leetcode_409 {
     public int longestPalindrome(String s) {
