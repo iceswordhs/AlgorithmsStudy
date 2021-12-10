@@ -15,7 +15,17 @@ import java.util.Arrays;
  */
 public class TestMianshi {
     public static void main(String[] args) {
-        leetcode_377 solution = new leetcode_377();
-        solution.combinationSum4(new int[]{1,2,3},4);
+        int[] ints=new int[3];
+        Integer a=1;
+
+        set(a);
+        System.out.println(a);
     }
+    static void set(Integer a){
+        a=5;
+    }
+}
+class testaa(){
+    int age;
+    String name;
 }
