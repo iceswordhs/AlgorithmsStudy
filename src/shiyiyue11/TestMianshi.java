@@ -25,7 +25,7 @@ public class TestMianshi {
         a=5;
     }
 }
-class testaa(){
+class testaa {
     int age;
     String name;
 }
