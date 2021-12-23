@@ -1,6 +1,9 @@
 package shieryue12;
 
 import shieryue12.Dec_21.offer2_38;
+import shieryue12.Dec_23.offer2_60;
+
+import java.util.Arrays;
 
 /**
  * @author Hs
@@ -8,18 +11,7 @@ import shieryue12.Dec_21.offer2_38;
  */
 public class DecTest {
     public static void main(String[] args) {
-        long millis1 = System.currentTimeMillis();
-        System.out.println(millis1);
-        for (int i=0;i<10000000;i++){
-            // 重写前
-            //new MyException();// 5106
-
-            // 重写后
-            new MyException();// 106
-
-            //new offer2_38();//30
-        }
-        System.out.println(System.currentTimeMillis());
-        System.out.println(System.currentTimeMillis()-millis1);
+        offer2_60 offer2_60 = new offer2_60();
+        System.out.println(Arrays.toString(offer2_60.topKFrequent(new int[]{1, 1, 1, 2, 2, 3}, 2)));
     }
 }
