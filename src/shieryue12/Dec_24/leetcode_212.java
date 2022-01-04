@@ -8,7 +8,7 @@ package shieryue12.Dec_24;
 import java.util.*;
 
 /**
- * 给定一个 m x n 二维字符网格 board 和一个单词（字符串）列表 words，
+ * 给定一个m x n 二维字符网格board和一个单词（字符串）列表 words，
  * 找出所有同时在二维网格和字典中出现的单词。
  *
  * 单词必须按照字母顺序，通过 相邻的单元格 内的字母构成，
