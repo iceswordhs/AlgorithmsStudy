@@ -1,5 +1,7 @@
 package twenty_days;
 
+import twenty_days.day13.quanpailie46;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -52,6 +54,7 @@ public class Main {
     //}
 
     public static void main(String[] args) {
-
+        quanpailie46 solution = new quanpailie46();
+        solution.permute(new int[]{1,2,3});
     }
 }
