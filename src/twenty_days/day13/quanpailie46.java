@@ -23,16 +23,16 @@ public class quanpailie46 {
         dfs(nums.length,integers,lists,0);
         return lists;
     }
-    public void dfs(int n,List<Integer> integers,List<List<Integer>> lists,int begin){
-        if(begin==n){
+    public void dfs(int n,List<Integer> integers,List<List<Integer>> lists,int pathLength){
+        // 路径长度为n，是一个排列
+        if(pathLength==n){
             lists.add(new ArrayList<>(integers));
-            return;
         }
-        for(int i=begin;i<n;i++){
-            Collections.swap(integers,begin,i);
-            System.out.println(integers);
-            dfs(n,integers,lists,begin+1);
-            Collections.swap(integers,begin,i);
+        // 从第pathLength个数每个数用一遍 第pathLength+1个数为其中一个 以1为开头循环一次，以2为开头循环一次...
+        for(int i=pathLength;i<n;i++){
+            Collections.swap(integers,pathLength,i);// 在第pathLength个位置，pathLength之后的数都在这个位置出现一次
+            dfs(n,integers,lists,pathLength+1);
+            Collections.swap(integers,pathLength,i);
         }
     }
 }
