@@ -36,3 +36,6 @@ build/
 
 ### VS Code ###
 .vscode/
+/src/main/resources/
+/src/test/
+/src/main/java/com/hs/leetcode/LeetcodeApplication.java
